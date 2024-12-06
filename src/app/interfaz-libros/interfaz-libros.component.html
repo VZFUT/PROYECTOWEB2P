@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>BIBLIOTECA ULEAM</title>
+    <link rel="stylesheet" href="interfaz-libros.component.css">
+  </head>
+  <body>
+    <header id="main-header" class="transparente">
+        <div>
+          <img src="/assets/imagenes/LOGO_ULEAM.png" alt="Logo ULEAM" class="header-logo">
+        </div>
+        
+        <div class="header-Izquierda">
+          <h1>BIBLIOTECA ULEAM</h1>
+        </div>
+
+        <div class="BT">
+          <nav>
+            <a href="/inicio-sesion" class="BOTONES">Iniciar Sesión</a>
+            <a href="/registro" class="BOTONES">Registrarse</a>
+          </nav>
+        </div>
+    </header>
+
+    <div class="CUERPO">
+      <section>
+        <div class="contenedor-libros">
+          <div class="libros" *ngFor="let libro of libros">
+            <img [src]="'/assets/imagenes/' + libro.imagen" [alt]="libro.titulo">
+            <div class="libros-contenido">
+              <h3>{{ libro.titulo }}</h3>
+              <p><strong>AUTOR:</strong> {{ libro.autor }}</p>
+              <p><strong>SINOPSIS:</strong> {{ libro.sinopsis }}</p>
+              <a href="/inicio-sesion" class="BTLEER">LEER</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="../../assets/validaciones/Validaciones.js" ></script>
+  </body>
+</html>

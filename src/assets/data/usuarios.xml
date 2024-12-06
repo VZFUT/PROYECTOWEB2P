@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuarios>
+    <usuario>
+        <id>1</id>
+        <username>Victor Zambrano</username>
+        <password>ULEAM</password>
+        <email>e1750030635@uleam.com</email>
+    </usuario>
+
+    <usuario>
+        <id>2</id>
+        <username>Orley Zambrano</username>
+        <password>ULEAM</password>
+        <email>e1777730635@uleam.com</email>
+    </usuario>
+</usuarios>

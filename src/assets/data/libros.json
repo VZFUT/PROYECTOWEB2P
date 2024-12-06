@@ -1,0 +1,38 @@
+[
+    {
+      "titulo": "ALIENÍGENAS AMERICANOS",
+      "autor": "Ortega Salfate",
+      "sinopsis":"Una investigación profunda sobre las conexiones entre culturas antiguas y visitantes extraterrestres en América",
+      "pdf": "../../assets/libros/ALIENIGENAS.pdf",
+      "imagen": "ALIENIGENAS.png"
+    },
+    {
+      "titulo": "YO SOY EL DIEGO",
+      "autor": "Diego Armando Maradona",
+      "sinopsis":"La biografía del mítico futbolista Diego Armando Maradona, narrada en primera persona",
+      "pdf": "../../assets/libros/EL_DIEGO.pdf",
+      "imagen": "EL_DIEGO.png"
+    },
+    {
+      "titulo": "EL EXTRAÑO CASO DEL DR.JEKYLL Y MR.HIDE",
+      "autor": "Robert Willson",
+      "sinopsis":"Un thriller psicológico sobre la dualidad humana entre el bien y el mal",
+      "pdf": "../../assets/libros/DR_HIDE.pdf",
+      "imagen": "DR_HIDE.jpg"
+    },
+    {
+      "titulo": "EL DIARIO DE GREG-UN RENACUAJO",
+      "autor": "Jeff Kinney",
+      "sinopsis":"Las divertidas aventuras de Greg, un niño que nos cuenta su vida en la escuela de forma muy peculiar",
+      "pdf": "../../assets/libros/DIARIO_GREG.pdf",
+      "imagen": "DIARIO_GREG.jpg"
+    },
+    {
+      "titulo": "LAS VIDAS DENTRO DE TU CABEZA",
+      "autor": "Carlos Sanchez",
+      "sinopsis":"Un análisis sobre el funcionamiento de la mente humana y sus conexiones con la realidad",
+      "pdf": "../../assets/libros/LA_MENTE.pdf",
+      "imagen": "LA_MENTE.jpg"
+    }
+  ]
+  

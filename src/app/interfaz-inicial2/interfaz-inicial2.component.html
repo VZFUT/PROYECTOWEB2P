@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>BIBLIOTECA ULEAM</title>
+    <link rel="stylesheet" href="interfaz-inicial2.component.css">
+  </head>
+  <body>
+    <header id="main-header" class="transparente">
+        <div>
+          <img src="/assets/imagenes/LOGO_ULEAM.png" alt="Logo ULEAM" class="header-logo">
+        </div>
+        
+        <div class="header-Izquierda">
+          <h1>BIBLIOTECA ULEAM</h1>
+        </div>
+
+        <div class="BT">
+          <nav>
+            <a href="#" id="logout-link" class="BOTONES">Cerrar Sesión</a>
+          </nav>
+        </div>
+    </header>
+
+    <div class="FONDO-CONTENEDOR">
+      <div class="FONDO-INTERIOR">
+        <img src="/assets/imagenes/ULEAM.png" alt="Logo ULEAM">
+      </div>
+    </div>
+    <div class="CT-BTMENU">
+      <div class="imagen">
+        <img src="/assets/imagenes/LIB.png" alt="Imagen lateral">
+      </div>
+      <a href="/interfaz-libros2" class="BTMENU">LIBROS</a>
+    </div>
+      
+
+    <div class="CUERPO">
+      <input type="text" class="FILTRAR" placeholder="FILTRAR">
+      <input type="text" id="search-bar" placeholder="BUSCAR LIBRO...">
+      <section>
+        <div class="contenedor-libros">
+          <div class="libros" *ngFor="let libro of libros">
+            <img [src]="'/assets/imagenes/' + libro.imagen" [alt]="libro.titulo">
+            <h3>{{ libro.titulo }}</h3>
+            <p><strong>AUTOR:</strong> {{ libro.autor }}</p>
+            <a href="/inicio-sesion" class="BTLEER">LEER</a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="../../assets/validaciones/Validaciones.js" ></script>
+  </body>
+</html>
